@@ -11,7 +11,9 @@ while inner_counter < src[counter].length do
 if src[counter].min
   puts src[counter]
 end 
-  
+
+  inner_counter += 1
     end
+counter += 1
   end 
 end
