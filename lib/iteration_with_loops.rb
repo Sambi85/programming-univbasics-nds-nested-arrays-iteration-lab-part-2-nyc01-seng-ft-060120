@@ -18,5 +18,5 @@ end
     end
 counter += 1
   end 
-pp src[0]
+pp src[0][0]
 end
