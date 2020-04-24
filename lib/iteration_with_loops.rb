@@ -11,7 +11,7 @@ inner_counter = 0
 while inner_counter < src[counter].length do 
 
 if src[counter][inner_counter] == src[counter][inner_counter].min
-new_array << src[counter]
+new_array << src[counter][inner_counter]
 end 
 
   inner_counter += 1
