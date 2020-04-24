@@ -8,12 +8,9 @@ new_array = []
 while counter < src.length do 
 inner_counter = 0
 
-while inner_counter < src[counter].length do 
 new_array << src[counter].min
 
-  inner_counter += 1
-    end
 counter += 1
   end 
-new_array.uniq
+new_array
 end
