@@ -18,5 +18,5 @@ end
     end
 counter += 1
   end 
-pp new_array
+pp src[counter]
 end
