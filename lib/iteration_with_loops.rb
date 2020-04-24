@@ -10,7 +10,7 @@ inner_counter = 0
 
 while inner_counter < src[counter].length do 
 
-if src[counter][inner_counter] == src[counter][inner_counter].min
+if src[counter][inner_counter] == src[counter].min
 new_array << src[counter][inner_counter]
 end 
 
@@ -18,5 +18,5 @@ end
     end
 counter += 1
   end 
-pp src[0][0]
+new_array
 end
