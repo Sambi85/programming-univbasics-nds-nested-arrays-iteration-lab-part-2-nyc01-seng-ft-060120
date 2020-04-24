@@ -18,5 +18,5 @@ end
     end
 counter += 1
   end 
-new_array
+pp new_array
 end
