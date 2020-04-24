@@ -15,5 +15,5 @@ new_array << src[counter].min
     end
 counter += 1
   end 
-new_array
+new_array.uniq
 end
